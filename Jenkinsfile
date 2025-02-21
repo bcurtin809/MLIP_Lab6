@@ -17,10 +17,11 @@ pipeline {
 
                 # TODO fill out the path to conda here
                 # sudo /PATH/TO/CONDA init
+                sudo chmod -R 777 /home/bcurtin2/mlip/bin/activate
 
                 # TODO Complete the command to run pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
-                source mlip/bin/activate
+                source /home/bcurtin2/mlip/bin/activate
                 pytest
 
                 echo 'pytest not runned'
