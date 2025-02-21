@@ -20,7 +20,7 @@ pipeline {
 
                 # TODO Complete the command to run pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
-                source /home/bcurtin2/mlip/bin/activate
+                source mlip/bin/activate
                 pytest
 
                 echo 'pytest not runned'
